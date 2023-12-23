@@ -1,4 +1,4 @@
-const div_api_data = document.getElementById('json')
+const api = document.getElementById('json')
 
 function get_all_resource() {
 const url = 'https://jsonplaceholder.typicode.com/posts'
@@ -31,13 +31,14 @@ data.push(formate_data(data_object[i]))
 }
 
 for (let i = 0; i < data.length; i++) {
-let a = data[i].join(' | ')
+let d = data[i].join(' | ')
 let new_div = document.createElement('div')
-new_div.textContent = a
-div_api_data.append(new_div)
+new_div.style.background = 'white '
+new_div.textContent = d
+api.append(new_div)
 
 let br = document.createElement('br')
-div_api_data.append(br)
+api.append(br)
 }
 }
 

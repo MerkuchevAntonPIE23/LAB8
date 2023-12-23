@@ -2,9 +2,9 @@
   --move-header: 0;
   --box-header-ht: 3rem;
   --bg-color: #d2c9fd;
-  --content-bg-color: #a1ddff;
+  --content-bg-color: #a1c0ff;
   --font-color: #37444c; 
-  --content-header: #ff4866;
+  --content-header: #48f0ff;
 }
 
 * {
@@ -71,7 +71,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #a699d8;
+    background: #d2c9fd;
     height: auto;
     width: 100vw;
     padding-top: 40px;

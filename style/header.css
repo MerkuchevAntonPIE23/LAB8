@@ -1,10 +1,10 @@
 :root {
   --move-header: 0;
   --box-header-ht: 3rem;
-  --bg-color: #a699d8;
-  --content-bg-color: #f3d7df;
+  --bg-color: #d2c9fd;
+  --content-bg-color: #a1ddff;
   --font-color: #37444c; 
-  --content-header: #ef7488;
+  --content-header: #ff4866;
 }
 
 * {
